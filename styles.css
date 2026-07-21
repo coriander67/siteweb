@@ -1,34 +1,77 @@
 
 :root{
-    --primary-color: #5603ad;
+    --primary-color: #ebdbb2;
+    --non-hover:#b8bb26;
+    --on-hover:#98971a;
     --secondary-color: rgb(131, 103, 199);
     --teriary-color: #c2f8cb;
-    --background-color: #b3e9c7;
+    --background-color: #3c3836;
+    --background-color-2: #504945;
+    --background-color-3: #665c54;
+}
+@font-face {
+    font-family:"FiraCode";
+    src: url(font/FiraCode.woff);    
 }
 body{
-    background-color: var(--background-color);
+    background-attachment: fixed;
+    background-image: url(tex/bg.png);
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    color: #5603ad;
+    color: var(--primary-color);
+}
+nav{
+    background-color: var(--background-color-2) ;
+    color: red;
+    font-family: "FiraCode";
+    color: var(--non-hover);
+    width: auto;
+    height:auto;
+    border: 30px;
+    border-radius: 3px;
 }
 
-.box1{
-    width: 150px; 
-    height: 150px;
+.main{
+    font-family: "FiraCode";
     color: var(--primary-color);
-    background-color: var(--teriary-color);
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.second{
+    border-radius: 5px;
+    background-color: var(--background-color-3);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+a{
+    color: var(--non-hover);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--on-hover);
+}
+
+.boxlink:visited{
+    color: var(--primary-color)
 }
 
 .boxlink{
+    border-radius: 5px;
+    padding: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: auto;
     font-size: 40px;
     text-align: center;
-    width: 160px;
-    height: 100px;
-    color: var(--primary-color);
-    background-color: var(--teriary-color);
+    width: auto;
+    height: 1039px;
+    background-color: var(--background-color-2);
+}
+.about{
+    font-size: 20px;
+}
+.more{
+    font-family: "FiraCode";
 }
