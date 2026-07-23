@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta content = "width=device-width", initial-scale="1">
+        
+    </head>
+
+    
+    <div class="main">
+        <div class="second">
+        <nav>
+            <a href=#about>about</a>
+            <a href=#more>more</a>
+        </nav>
+        <section id="about">
+            <h2>This is my website</h2>
+            <h2>You are using</h2>
+            <div class="agent"><?php echo $_SERVER['HTTP_USER_AGENT'];?> </div>
+        </section>
+
+            <div class="boxlink">
+            <a href="https://github.com/coriander67" target="_blank">This is my hub</a>
+            <br>
+            <img src="https://count.getloli.com/@co?name=co&theme=booru-jaypee&padding=7&offset=0&align=top&scale=1&pixelated=0&darkmode=1" />
+            <form   action="comment.php" method="post">
+                <label for="comment">type shit</label><br>
+                <input type="text" name="comment"<br>
+            </form>     
+        </div>
+
+            
+        <section id="more">
+           <h2>more section</h2> 
+           <h3>links:</h3>
+        </section>
+        </div>
+    </div>
+</html>

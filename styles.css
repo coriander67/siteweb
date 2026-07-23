@@ -23,6 +23,7 @@ h1{
     color: var(--primary-color);
 }
 nav{
+    padding: 1%;
     background-color: var(--background-color-2) ;
     color: red;
     font-family: "FiraCode";
@@ -56,7 +57,9 @@ a:hover{
 .boxlink:visited{
     color: var(--primary-color)
 }
-
+.agent{
+    color: var(--teriary-color);
+}
 .boxlink{
     border-radius: 5px;
     padding: 30px;
@@ -71,6 +74,7 @@ a:hover{
 }
 .about{
     font-size: 20px;
+    padding:0;
 }
 .more{
     font-family: "FiraCode";
