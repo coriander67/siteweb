@@ -79,3 +79,9 @@ a:hover{
 .more{
     font-family: "FiraCode";
 }
+.welcome{
+    font-size: 30px;
+    text-align: center;
+    font-family: "FiraCode";
+    color:var(--primary-color)
+}
