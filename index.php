@@ -9,6 +9,7 @@ $stmt= $pdo->query('SELECT * FROM employees');
 <!DOCTYPE html>
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="tex/favicon.ico">
 </head>
 <body>
 <h3 style="color:white;">
